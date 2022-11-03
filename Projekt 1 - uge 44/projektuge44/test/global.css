@@ -1,0 +1,83 @@
+/* farven på nav og footeren */
+.maincolor {
+    background-color: rgb(199, 21, 133);
+}
+
+/* her defineres højden på nav */
+.navmenu {
+    height: 80px;
+}
+
+/* placering og navigation af logoet */
+.logo img {
+    width: 210px;
+    height: 70px;
+    padding-left: 14px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+/* navigation af tekstkasse og billedekasse på forsiden, hvor der bliver lavet plads mellem elementerne */
+.parent {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+/* de tre navigationslinks er placeret på halvdelen af menuen */
+.menu-container-div {
+    width: 50%;
+}
+
+/* her bestemmes knappernes placering og størrelse i menuen */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: 20px;
+
+  }
+/* her er brugt flexbox for at centrere knapperne. man placere den midterste og ud fra den, placeres de to andre.
+flex betyder at elementerne vil blive formindsket til den plads der er givet */
+.menu-item {
+    flex-basis: 25%;
+    text-align: center;
+    transition: 0.3s;
+}
+/* animation - når man hover over menupunkterne */
+.menu-item :hover {
+    color: rgb(245, 226, 21); 
+    font-size: 22px;
+}
+
+/* dette er ikke en class, men gælder på hele body tagget på alle dokumenter. 
+margin og padding fjernes når man sætter margin og padding til 0 */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+ 
+}
+/* dette er heller ikke en class - bestemmer teksten placering og farve */
+footer{
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
+
+/* alle links på alle 3 sider får farve hvid */
+a {
+    color:rgb(255, 252, 252);
+    text-decoration: none;
+}
+
+/* når man hover over links skifter cursoren til en hånd */
+a :hover {
+    text-decoration: none;
+    cursor: pointer;
+}

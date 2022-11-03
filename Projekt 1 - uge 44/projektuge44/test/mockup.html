@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockups</title>
+    <!-- der er linket til 2 css dokumenter - forside og global -->
+    <link href="global.css" rel="stylesheet">
+    <link href="mockup.css" rel="stylesheet">
+</head>
+<body>
+     <!-- menulinjens elementer er placeret inde i nav-tagget -->
+     <nav class="maincolor navmenu parent">
+        <div class="logo flexbox-item">   
+            <!-- logoet kommer i sin egen kasse og linkes til forsiden, så man kan trykke for at komme til forsiden -->
+            <a href="forside.html">
+                <img src="images/logo1.png" alt="logo">
+            </a>
+        </div>
+         <!-- putter links til undersider i menuen i en kasse for sig selv -->
+        <div class="menu-container-div">  
+        <!-- ul laves for at få menuknapperne til at stå på linje -->
+            <ul class="menu-container"> 
+                <li class="menu-item">    
+                    <a href="forside.html">Forside</a>
+                </li>
+                <li class="menu-item">    
+                    <a href="Omos.html">Om pop art</a>
+                </li>
+                <li class="menu-item">    
+                    <a href="mockup.html">Mock ups</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<!-- laves for at lave en kasse rundt om hele siden -->
+<div class="flex-mockup-container">   
+    <!-- her laves en kasse for hver mock up - opdeles i 3 kolonner -->
+    <div>  
+        <img src="images/mockup1.png" alt="mockup forside">
+        <p> På forsiden har vi designet et billede, som er inde for stilarten Pop Art. 
+            Derudover har vi lavet noget tekst, med baggrundsviden om Pop Art.
+        </p>
+    </div>
+    <!-- her laves en kasse for hver mock up - opdeles i 3 kolonner -->
+    <div>   
+        <img src="images/mockup2.png" alt="mockup om popart">
+        <p> På siden 'Om Pop Art' ses et stort banner med endnu et billede vi har designet. 
+            Under banneret er der tekst om Pop Art, hvor der bliver skrevet hvad Pop Art er.
+        </p>
+    </div>
+    <!-- her laves en kasse for hver mock up - opdeles i 3 kolonner -->
+    <div>   
+        <img src="images/mockup3.png" alt="mockup af mockup-siden">
+        <p> På den sidste side ses vores mock ups, som viser hvordan vi ville have vores hjemmeside
+            til at se ud fra starten. Under billederne er der en forklarende tekst. 
+        </p>
+    </div>
+
+</div> 
+
+<!-- footer på alle sider -->
+<footer class="maincolor"> 
+    <p>Copyright &copy; 2022 Pop Art</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* tekstfeltet på venstre side */
+.left-body-container {
+    width: 500px;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 60px;
+    padding-top: 15px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+/* billedet på højre side */
+.right-body-container {
+    width: 200px;
+    height: 300px;
+    padding: 15px 30px;
+    flex-basis: 50%;
+
+}
+
+/* billedet på forsiden */
+.frontpage-image {
+    max-width: 100%; height: 540px;
+}
+
+/* overskriftens størrelse og bold skrift */
+.header {
+    font-style: bold;
+    font-size: 50px;
+}

@@ -1,0 +1,12 @@
+/* her centreres indholdet i hver deres kolonne/kasse */
+/* flex bruges for så alle elementer har udgangspunkt fra midten */
+.flex-mockup-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+/* bruges for at centrere teksten */
+p {
+    text-align: center;
+}

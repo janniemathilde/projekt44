@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art</title>
+    <!-- der er linket til 2 css dokumenter - forside og global -->
+    <link href="forside.css" rel="stylesheet">
+    <link href="global.css" rel="stylesheet">
+</head>
+<body>
+    <!-- menulinjens elementer er placeret inde i nav-tagget -->
+    <nav class="maincolor navmenu parent">
+        <div class="logo flexbox-item">   
+             <!-- logoet kommer i sin egen kasse og linkes til forsiden, så man kan trykke for at komme til forsiden -->
+                <a href="forside.html">
+                    <img src="images/logo1.png" alt="logo">
+                </a>
+            </div>
+            <!-- putter links til undersider i menuen i en kasse for sig selv -->
+            <div class="menu-container-div">  
+            <!-- ul laves for at få menuknapperne til at stå på linje -->
+                <ul class="menu-container"> 
+                    <li class="menu-item">    
+                        <a href="forside.html">Forside</a>
+                    </li>
+                    <li class="menu-item">    
+                        <a href="Omos.html">Om pop art</a>
+                    </li>
+                    <li class="menu-item">    
+                        <a href="mockup.html">Mock ups</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    
+    <!-- Kassen for hele forsiden med både tekst og billede -->
+    <div class="parent"> 
+        <!-- separat kasse med tekst - til venstre på siden -->
+        <div class="left-body-container">
+            <h1 class="header">Pop Art</h1>
+            <p>Pop Art også kaldet popkunst, er en stilart som opstod i England sidst i 50erne. 
+                I midt 60erne voksede Pop Art stilen sig stor især i USA og var mest fremtrædende i 1970erne. 
+                Afbillede forbrugersamfundets produkter og populærkultur. 
+                 Motiverne er ofte hentet fra dagligdagen, såsom aviser, blade, reklamer etc.  
+                Pop Art er ofte i collageform, hvor man forstørrer ting sætter dem sammen på nye måder og i et nyt 
+                sammenhæng, og kommercielle processer som tekst og akrylmaling. <br> <br>
+
+                Pop artens kunstnere arbejder individuelt med metoderne, teknikker og farveholdninger inden for popartens verden. 
+                Kunstnere inden for pop art er forskellige i deres udtryk, men har fællestræk, som gør at de alle egner sig til at være kunstnere 
+                i stilarten pop art. <br> <br>
+
+                Der er mange forskellige kunstnere som repræsenterer kunsten inden for pop art. Det er f.eks. Claus Oldenburg, Jim Dine, 
+                Jamen Rosenquist, Tom Wesselmann, Ed Ruscha, Allan D'arcangelo, Pauline Boty, James Gill, Robert Indiana, Eduart Paolozzi, 
+                Peter Phillips, Mel Ramo, Derek Boshier og mange andre. <br> <br>
+
+                Farver i pop artens verden kan man ikke sige noget generelt om, da kunstnerne inden for Pop Art ikke anvendte bestemte farver eller nuancer. 
+                Stilartens farver indeholder hele palettens farver, og de blev alle sammen brugt, men enkelte kunstnere i Pop Art havde hver deres karakteristiske holdning til farve. 
+                Dog var kunstnerne aldrig 100 procent konsekvente, når det gjaldt valg af farve. Den grundlæggende ide bag Pop Art var at skabe kunst, 
+                hvor betydningen var indeholdt i motivet, og at indeholdet var direkte og hurtig at aflæse i modsætning til den intellektuelle og 
+                abstrakte ekspressionisme. 
+            </p>
+        </div>  
+        <!-- separet kasse med billedet - til højre på siden -->
+        <div class="right-body-container">
+            <img class="frontpage-image" src="images/forsidebillede1.png" alt="billede med pop art elementer">
+        </div>
+    </div>
+    <!-- footer på alle sider -->
+    <footer class="maincolor"> 
+        <p>Copyright &copy; 2022 Pop Art</p>
+    </footer>
+</body>
+</html>
